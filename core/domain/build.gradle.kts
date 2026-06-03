@@ -15,5 +15,5 @@ android {
 }
 
 dependencies {
-    // Phase-specific deps added in later phases
+    implementation(libs.kotlinx.coroutines.android)
 }
